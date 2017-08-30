@@ -1,0 +1,279 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+canvas {
+	background-color: #eee;
+}
+
+#homeContainer {
+	width: 500px;
+	text-align: center;
+	border: 3px solid #448AFF;
+	margin: 0 auto;
+	padding: 20px;
+}
+#joinRoomButton {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	border: 2px solid #448AFF;
+	background-color: #448AFF;
+	display: block;
+	float: center;
+	font-size: 22px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+#createRoomButton {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	border: 2px solid #448AFF;
+	background-color: #448AFF;
+	float: center;
+	font-size: 22px;
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+#createRoomContainer {
+	width: 500px;
+	text-align: center;
+	border: 3px solid #448AFF;
+	margin: 0 auto;
+	padding: 20px;
+}
+#createRoomNameUserNameField {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	font-size: 18px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+#createRoomNameField {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	font-size: 18px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+#confirmRoomCreateButton {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	border: 2px solid #448AFF;
+	background-color: #448AFF;
+	float: center;
+	font-size: 22px;
+	display: inline;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+#joinRoomContainer {
+	width: 500px;
+	text-align: center;
+	border: 3px solid #448AFF;
+	margin: 0 auto;
+	padding: 20px;
+}
+#joinRoomUserNameField {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	font-size: 18px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+#joinRoomNameField {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	font-size: 18px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+#confirmJoinRoom {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	border: 2px solid #448AFF;
+	background-color: #448AFF;
+	float: center;
+	font-size: 22px;
+	display: inline;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+#roomName {
+	margin-bottom: 0;
+}
+
+hr {
+	width: 95%;
+	float: left;
+	border: 1px solid black;
+}
+
+#messageContainer {
+	width: 500px;
+	border: 3px solid #448AFF;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#displayTable {
+	width: 100%;
+}
+
+#textField {
+	width: 80%;
+	font-family: 'Lato', sans-serif;
+}
+
+#sendButton {
+	width: 15%;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	border: 2px solid #448AFF;
+	background-color: #448AFF;
+}
+
+#startButtons {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#readyUp {
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	border: none;
+	background-color: #448AFF;
+}
+#startGame {
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	border: none;
+	background-color: #448AFF;
+}
+
+td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-left: 2px solid #448AFF;
+	padding-left: 10px;
+}
+
+strong {
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+#gameContainer {
+	width: 500px;
+	border: 3px solid #448AFF;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#gameContainer h1 {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#gameContainer hr {
+}
+
+#playerTable {
+	width: 45%;
+	margin: 0 auto;
+}
+
+#playerTable td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	padding-left: 10px;
+}
+
+.attack {
+	color: red;
+}
+
+#msg {
+	color: #43A047;
+}
+
+#gameConsole {
+	width: 100%;
+}
+
+#gameConsole td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: : 2px solid #448AFF;
+	padding-left: 10px;
+}
+
+#attackTextField {
+	width: 80%;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#sendAttack {
+	width: 15%;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	border: 2px solid #448AFF;
+	background-color: #448AFF;
+		margin-bottom: 10px;
+}
+
+#defTextField {
+	width: 80%;
+	font-family: 'Lato', sans-serif;
+}
+
+#sendDef {
+	width: 15%;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	border: 2px solid #448AFF;
+	background-color: #448AFF;
+}

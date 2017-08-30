@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8" />
+	    <title>Typewriter Game</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+		<script src="scripts/firebase-4.2.0.js"></script>
+		<script src="scripts/firebase-initialize.js"></script>
+	</head>
+	<body>
+		<div id="homeContainer">
+			<h1>Typewriter Game<h1>
+			<button id="joinRoomButton">Join Game</button>
+			<button id="createRoomButton">Create Game</button>
+		</div>
+
+		<div id="joinRoomContainer" style="display:none;">
+			<h1>Join Game</h1>
+
+			<input placeholder="Enter username.." type="text" name="joinRoomUserNameField" id="joinRoomUserNameField"></input>
+			<input placeholder="Enter game name.." type="text" name="joinRoomNameField" id="joinRoomNameField"></input>
+
+			<button id="confirmJoinRoom">Join</button>
+		</div>
+
+		<div id="createRoomContainer" style="display:none;">
+			<h1>Create Game</h1>
+
+			<input placeholder="Enter username.." type="text" name="createRoomNameUserNameField" id="createRoomNameUserNameField"></input>
+			<input placeholder="Enter game name.." type="text" name="createRoomNameField" id="createRoomNameField"></input>
+
+			<button id="confirmRoomCreateButton">Create</button>
+		</div>
+		<div id="messageContainer" style="display:none;">
+			<h1 id="roomName"></h1>
+			<p id="username" style="display:none;"></p>
+			<hr>
+			<table id="displayTable"></table>
+
+			<input type="text" name="textField" id="textField" onkeydown="sendMessage(this)"></input>
+			<button id="sendButton">SEND</button>
+
+			<div id="startButtons">
+				<button id="readyUp">READY</button>
+				<button id="startGame">START</button>
+			</div>
+		</div>
+		<div id="gameContainer" style="display:none;">
+			<h1>Players</h1>
+			<hr>
+			<table id="playerTable"></table>
+			<hr>
+			<table id="gameConsole"></table>
+
+			<input type="text" name="attackTextField" id="attackTextField" onkeydown="sendAttackMsg(this)"></input>
+			<button id="sendAttack">ATTACK</button>
+
+			<input type="text" name="defTextField" id="defTextField" onkeydown="sendDefMsg(this)"></input>
+			<button id="sendDef">DEFEND</button>
+		</div>
+
+		<script type="text/javascript" src="scripts/scripts.js"></script>
+	</body>
+</html>
